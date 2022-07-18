@@ -1,5 +1,5 @@
 
-
+/*
 const productos = [
     {
         id: 1,
@@ -253,7 +253,7 @@ const generarCards= (productos)=>{
 
        
 
-
+*/
 
 
 

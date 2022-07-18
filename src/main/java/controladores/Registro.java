@@ -60,9 +60,10 @@ public class Registro extends HttpServlet {
 			int rowCount = pst.executeUpdate();
 
 			// al realizar el metodo post se direcciona a index.jsp
-			disp = request.getRequestDispatcher("index.jsp");
+			
 
 			if (rowCount > 0) {
+				disp = request.getRequestDispatcher("index.jsp");
 //				request.setAttribute("name", "success");
 			} else {
 				request.setAttribute("status", "failed");

@@ -1,4 +1,4 @@
-        const pcs = [
+/*        const pcs = [
     {
         id:1,
         img:"../../css/img/categorias/pc/pc-hp-w10.webp",
@@ -193,4 +193,4 @@ let cPcW7 = document.getElementById("w7") ;;
 let cPcLinux = document.getElementById("linux") ;;
 let cPcMacOs = document.getElementById("mac") ;;
 
-
+*/

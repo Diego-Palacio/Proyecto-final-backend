@@ -147,6 +147,9 @@ function cambiarStatusForm() {
     
     var dpo = document.getElementById("datosPersonalesparaOcultar");
     dpo.setAttribute("hidden","hidden");
+    
+    var datosPers = document.getElementById("datosPers");
+    datosPers.setAttribute("hidden","hidden");
 }
 
 function editarDatos(){
@@ -155,6 +158,9 @@ function editarDatos(){
     
     var dpo = document.getElementById("datosPersonalesparaOcultar");
     dpo.setAttribute("hidden","hidden");
+    
+    var form = document.getElementById("formEliminar");
+    form.setAttribute("hidden","hidden");
 }
 	
 </script>    

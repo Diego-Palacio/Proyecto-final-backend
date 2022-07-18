@@ -1,3 +1,4 @@
+/*
 let carrito = [];
 
 
@@ -82,4 +83,4 @@ generarCards(obtengoCarrito);
 function alerta () {
             alert( compra);
         }
-       
+       */

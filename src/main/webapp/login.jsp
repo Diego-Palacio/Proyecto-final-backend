@@ -138,12 +138,12 @@
 
     </footer>
 
-	<script type="text/javascript">
-		var status = document.getElementById("status").value;
-		if(status  == "failed"){
-			alert("Lo siento email o contraseña incorrecto");
-		}
-	</script>
+<!-- 	<script type="text/javascript"> -->
+<!-- // 		var status = document.getElementById("status").value; -->
+<!-- // 		if(status  == "failed"){ -->
+<!-- // 			alert("Lo siento email o contraseña incorrecto"); -->
+<!-- // 		} -->
+<!-- 	</script> -->
    
 
 </body>

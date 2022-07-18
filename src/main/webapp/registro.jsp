@@ -67,7 +67,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="col-14 mb-2"><br>
                                 <input type="submit" style="width:100px ;" class="btn btn-primary btn-sm" 
-                                value="Registrarse" onclick="validarPass();">
+                                value="Registrarse" >
                                 <a class="btn btn-danger btn-sm m-2" style="width:100px ;" href="index.jsp" role="button">Salir</a>
                             </div>
                         </div>
@@ -78,9 +78,24 @@
 
 	 <footer><%@include file= "footer.jsp" %></footer>
 	 
-	 <script src="js/index.js">
-	 		
-	 		
+	 <script type="text/javascript">
+	 
+// 		 var form = document.getElementById("formularioRegistro");
+// 		 form.addEventListener('submit', (e)=>{
+// 		        e.preventDefault();
+		        
+// 		        const passUno = document.getElementById("passwordRegistro").value;
+				
+// 				 const passDos = document.getElementById("passwordSesion").value;
+			
+// 					if(passUno!=passDos){
+// 					 alert("Las contraseñas son diferentes intente nuevamente");
+// 					 location.reload();
+// 					 }
+	
+// 		    })
+	
+		    
 	 </script>
 	 
 	 
